@@ -4,14 +4,6 @@ body{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
 
-  .user{
-    font-size: 15pt;
-    margin: 0;
-    padding: 20px;
-    color: white;
-    font-family: 'Arial';
-  }
-
   p{
     font-size: 15pt;
     margin: 0;
@@ -19,10 +11,21 @@ body{
     color: black;
     font-family: 'Arial';
   }
+
+  .user{
+    font-size: 10pt;
+    margin: 0;
+    padding: 15px;
+    color: white;
+    font-family: 'Arial';
+  }
+
   img{
       width: 2cm;
-      margin: 5px 0 5px 0;
+width: 50px;
+height: 50px;
       border-radius: 15px;
+      padding-top: 5px;
   }
   .container1{
       display: flex;
@@ -31,9 +34,21 @@ body{
       font-family: Arial;
       background-color:#0000CD;
       color: white;
-      padding: 10px 30px 10px 30px;
+      padding: 0 30px 0 30px;
       flex-direction: row-reverse;
   }
+
+  .pag2{
+    display: flex;
+    justify-content:space-between;
+    font-size: 15pt;
+    font-family: Arial;
+    background-color:#0000CD;
+    color: white;
+    padding: 0 30px 0 30px;
+    flex-direction: row-reverse;
+  }
+
   .login{
     display: flex;
     flex-direction: column;
@@ -89,12 +104,14 @@ body{
    font-size: 15pt;
    font-family: Arial;
    color: white;
+   border-radius: 10px;
+   margin-top: 10px;
   }
 
-  .avisos{
+  .prev{
     float: left;
     padding-left: 30px;
     width: 60%;
-
+    padding-top: 15px;
   }
 
