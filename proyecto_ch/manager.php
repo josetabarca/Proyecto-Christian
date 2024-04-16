@@ -7,7 +7,7 @@
     <body>
     <div class="pag2">
       <p class="user">Joset Misael Abarca Aviles <br>Código de profesor: 328969 </p>
-      <img src="https://epo34info.files.wordpress.com/2013/09/escudo-aniv.jpg" alt="logo" />
+      <img src="https://epo34info.files.wordpress.com/2013/09/escudo-aniv.jpg" alt="logo" class="logo" />
     </div>
 
     <div class="lista">
@@ -39,6 +39,14 @@
     <div class="prev">
       <iframe src= "pendientes\Oficio_201.pdf" width="100%" height="100%"></iframe>>  
     </div>
+
+    <div class="firma">
+    <fieldset><legend>Firma digital</legend><br>
+
+      <button>Firmar</button>
+    </fieldset>
+    </div>
+  
 
     </body>
 </html>
