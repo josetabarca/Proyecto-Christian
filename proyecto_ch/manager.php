@@ -25,7 +25,7 @@
                     ?>
                       <tr>
                         <td><?php echo $file; ?></td>
-                        <td><a href=<?php $file; ?>><button type="button">Ver</button></a></td>
+                        <td><a href="<?php $filePath ?>"><button type="button">Ver</button></a></td> 
                       </tr>
                     <?php
                 }
@@ -42,11 +42,11 @@
 
     <div class="firma">
     <fieldset><legend>Firma digital</legend><br>
-
+      <img src="Imagenes/signature.png" alt="firma de docente">
+      <p>Joset Misael Abarca Aviles</p>
       <button>Firmar</button>
     </fieldset>
     </div>
   
-
     </body>
 </html>
